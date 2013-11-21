@@ -1,0 +1,43 @@
+﻿Build started 11/20/2013 6:47:55 PM.
+     1>Project "C:\Users\Jay.VADER\Desktop\quake2 - Copy\quake2-3.22\ref_gl\ref_gl.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\..\release/ref_gl.dll" /INCREMENTAL:NO /NOLOGO winmm.lib "../libs/mpglib/mpglib-static.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\ref_gl.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\..\release/ref_gl.pdb" /SUBSYSTEM:WINDOWS /LTCG /TLBID:1 /RELEASE /DYNAMICBASE:NO /NXCOMPAT:NO /IMPLIB:".\..\release/ref_gl.lib" /MACHINE:X86 /SAFESEH /DLL .\release/gl_draw.obj
+         .\release/gl_image.obj
+         .\release/gl_light.obj
+         .\release/gl_mesh.obj
+         .\release/gl_model.obj
+         .\release/gl_rmain.obj
+         .\release/gl_rmisc.obj
+         .\release/gl_rsurf.obj
+         .\release/gl_warp.obj
+         .\release/glw_imp.obj
+         .\release/q_shared.obj
+         .\release/q_shwin.obj
+         .\release/qgl_win.obj
+            Creating library .\..\release/ref_gl.lib and object .\..\release/ref_gl.exp
+     1>gl_image.obj : error LNK2001: unresolved external symbol _jpeg_start_decompress
+     1>gl_image.obj : error LNK2001: unresolved external symbol _jpeg_CreateDecompress
+     1>gl_image.obj : error LNK2001: unresolved external symbol _jpeg_destroy_decompress
+     1>gl_image.obj : error LNK2001: unresolved external symbol _jpeg_resync_to_restart
+     1>gl_image.obj : error LNK2001: unresolved external symbol _jpeg_read_header
+     1>gl_image.obj : error LNK2001: unresolved external symbol _jpeg_finish_decompress
+     1>gl_image.obj : error LNK2001: unresolved external symbol _jpeg_read_scanlines
+     1>gl_image.obj : error LNK2001: unresolved external symbol _gluBuild2DMipmaps@28
+     1>gl_image.obj : error LNK2001: unresolved external symbol _jpeg_std_error
+     1>gl_mesh.obj : error LNK2001: unresolved external symbol _generateShellValues
+     1>gl_mesh.obj : error LNK2001: unresolved external symbol _activateShell
+     1>gl_mesh.obj : error LNK2001: unresolved external symbol _determineShellType
+     1>gl_rmisc.obj : error LNK2001: unresolved external symbol _jpeg_set_quality
+     1>gl_rmisc.obj : error LNK2001: unresolved external symbol _jpeg_CreateCompress
+     1>gl_rmisc.obj : error LNK2001: unresolved external symbol _jpeg_destroy_compress
+     1>gl_rmisc.obj : error LNK2001: unresolved external symbol _jpeg_write_scanlines
+     1>gl_rmisc.obj : error LNK2001: unresolved external symbol _jpeg_finish_compress
+     1>gl_rmisc.obj : error LNK2001: unresolved external symbol _jpeg_start_compress
+     1>gl_rmisc.obj : error LNK2001: unresolved external symbol _jpeg_set_defaults
+     1>gl_rmisc.obj : error LNK2001: unresolved external symbol _jpeg_stdio_dest
+     1>.\..\release/ref_gl.dll : fatal error LNK1120: 20 unresolved externals
+     1>Done Building Project "C:\Users\Jay.VADER\Desktop\quake2 - Copy\quake2-3.22\ref_gl\ref_gl.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.20

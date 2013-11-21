@@ -1,0 +1,693 @@
+﻿Build started 11/20/2013 6:47:55 PM.
+     1>Project "C:\Users\Jay.VADER\Desktop\quake2 - Copy\quake2-3.22\quake2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W4 /WX- /Ox /Ob2 /Oi /Ot /Oy /GT /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /GF /Gm- /EHsc /MT /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /openmp /Fo".\release/" /Fd".\release/" /doc".\release\\" /Gd /TC /analyze- /errorReport:prompt client\cl_cin.c client\cl_ents.c client\cl_fx.c client\cl_input.c client\cl_inv.c client\cl_main.c client\cl_newfx.c client\cl_parse.c client\cl_pred.c client\cl_scrn.c client\cl_tent.c client\cl_view.c client\console.c client\keys.c client\menu.c client\qmenu.c client\snd_dma.c client\snd_mem.c client\snd_mix.c client\x86.c game\m_flash.c game\q_shared.c qcommon\cmd.c qcommon\cmodel.c qcommon\common.c qcommon\crc.c qcommon\cvar.c qcommon\files.c qcommon\md4.c qcommon\net_chan.c qcommon\pmove.c server\sv_ccmds.c server\sv_ents.c server\sv_game.c server\sv_init.c server\sv_main.c server\sv_send.c server\sv_user.c server\sv_world.c win32\cd_win.c win32\conproc.c win32\in_win.c win32\net_wins.c win32\q_shwin.c win32\snd_win.c win32\sys_win.c win32\vid_dll.c win32\vid_menu.c
+         cl_cin.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+         cl_ents.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>client\cl_ents.c(413): warning C4127: conditional expression is constant
+     1>client\cl_ents.c(797): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_ents.c(805): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         cl_fx.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+         cl_input.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+         cl_inv.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+         cl_main.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>client\cl_main.c(224): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>client\cl_main.c(342): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_main.c(343): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_main.c(347): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_main.c(348): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_main.c(351): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putenv. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(941) : see declaration of 'putenv'
+     1>client\cl_main.c(355): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : see declaration of 'getenv'
+     1>client\cl_main.c(486): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>client\cl_main.c(549): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>client\cl_main.c(575): warning C4310: cast truncates constant value
+     1>client\cl_main.c(576): warning C4310: cast truncates constant value
+     1>client\cl_main.c(577): warning C4310: cast truncates constant value
+     1>client\cl_main.c(578): warning C4310: cast truncates constant value
+     1>client\cl_main.c(583): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_main.c(585): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_main.c(586): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_main.c(590): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_main.c(591): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_main.c(675): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_main.c(731): warning C4310: cast truncates constant value
+     1>client\cl_main.c(1097): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>client\cl_main.c(1282): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_main.c(1288): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_main.c(1349): warning C4389: '!=' : signed/unsigned mismatch
+     1>client\cl_main.c(1389): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>client\cl_main.c(1622): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>client\cl_main.c(1844): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         cl_newfx.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>client\cl_newfx.c(279): warning C4100: 'ent' : unreferenced formal parameter
+         cl_parse.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>client\cl_parse.c(86): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_parse.c(94): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_parse.c(102): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_parse.c(110): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_parse.c(118): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_parse.c(133): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_parse.c(139): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_parse.c(148): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>client\cl_parse.c(203): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_parse.c(212): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_parse.c(221): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_parse.c(230): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_parse.c(239): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_parse.c(255): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_parse.c(262): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_parse.c(329): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>client\cl_parse.c(427): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>client\cl_parse.c(501): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>client\cl_parse.c(505): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>client\cl_parse.c(515): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_parse.c(524): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_parse.c(604): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_parse.c(618): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_parse.c(700): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>client\cl_parse.c(703): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_parse.c(845): warning C4127: conditional expression is constant
+     1>client\cl_parse.c(907): warning C4996: '_strtime': This function or variable may be unsafe. Consider using _strtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.h(202) : see declaration of '_strtime'
+     1>client\cl_parse.c(982): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+         cl_pred.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+         cl_scrn.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>client\cl_scrn.c(206): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>client\cl_scrn.c(249): warning C4127: conditional expression is constant
+     1>client\cl_scrn.c(298): warning C4127: conditional expression is constant
+     1>client\cl_scrn.c(1139): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         cl_tent.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+         cl_view.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>client\cl_view.c(265): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_view.c(283): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_view.c(287): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\cl_view.c(299): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>client\cl_view.c(345): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>client\cl_view.c(454): warning C4210: nonstandard extension used : function given file scope
+         console.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>client\console.c(161): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>client\console.c(184): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>client\console.c(437): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\console.c(438): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\console.c(583): warning C4996: '_strtime': This function or variable may be unsafe. Consider using _strtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.h(202) : see declaration of '_strtime'
+     1>client\console.c(593): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>client\console.c(665): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>client\console.c(667): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\console.c(669): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\console.c(670): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\console.c(687): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         keys.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>client\keys.c(181): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\keys.c(248): warning C4013: 'toupper' undefined; assuming extern returning int
+     1>client\keys.c(257): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(204) : see declaration of 'strtok'
+     1>client\keys.c(266): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\keys.c(326): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\keys.c(348): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\keys.c(527): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\keys.c(604): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\keys.c(606): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         menu.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>client\menu.c(563): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(564): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(663): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(668): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(673): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(1188): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(1193): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(1198): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(1203): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(1208): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(1213): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(1218): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(1257): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(1265): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(1270): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(1275): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(1285): warning C4210: nonstandard extension used : function given file scope
+     1>client\menu.c(1280): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(1337): warning C4028: formal parameter 1 different from declaration
+     1>client\menu.c(1343): warning C4028: formal parameter 1 different from declaration
+     1>client\menu.c(1433): warning C4028: formal parameter 1 different from declaration
+     1>client\menu.c(1993): warning C4100: 'data' : unreferenced formal parameter
+     1>client\menu.c(1999): warning C4100: 'data' : unreferenced formal parameter
+     1>client\menu.c(2005): warning C4100: 'data' : unreferenced formal parameter
+     1>client\menu.c(2011): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(2016): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(2021): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(2142): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>client\menu.c(2145): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(2342): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>client\menu.c(2365): warning C4100: 'self' : unreferenced formal parameter
+     1>client\menu.c(2370): warning C4100: 'self' : unreferenced formal parameter
+     1>client\menu.c(2380): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(2394): warning C4100: 'self' : unreferenced formal parameter
+     1>client\menu.c(2429): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(2490): warning C4100: 'self' : unreferenced formal parameter
+     1>client\menu.c(2509): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(2497): warning C4100: 'self' : unreferenced formal parameter
+     1>client\menu.c(2542): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(2534): warning C4100: 'self' : unreferenced formal parameter
+     1>client\menu.c(2637): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>client\menu.c(2645): warning C4996: 'filelength': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _filelength. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(331) : see declaration of 'filelength'
+     1>client\menu.c(2645): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(718) : see declaration of 'fileno'
+     1>client\menu.c(2680): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(2684): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(2688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(2740): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(2750): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(2767): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(2769): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(2779): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(3418): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(3498): warning C4100: 'self' : unreferenced formal parameter
+     1>client\menu.c(3503): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(3508): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(3515): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(3525): warning C4100: 'unused' : unreferenced formal parameter
+     1>client\menu.c(3568): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(3570): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(3575): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(3635): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(3636): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(3652): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(3653): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(3660): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(3661): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(3698): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(3703): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : see declaration of 'strdup'
+     1>client\menu.c(3721): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>client\menu.c(3722): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(3629): warning C4189: 'FoundMD3' : local variable is initialized but not referenced
+     1>client\menu.c(3784): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(3788): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(3793): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(3798): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(3799): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(3836): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\menu.c(3928): warning C4210: nonstandard extension used : function given file scope
+     1>client\menu.c(3948): warning C4047: '=' : 'lightstyle_t *' differs in levels of indirection from 'int'
+         qmenu.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>client\qmenu.c(94): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>client\qmenu.c(204): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(204) : see declaration of 'strtok'
+     1>client\qmenu.c(206): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>client\qmenu.c(309): warning C4127: conditional expression is constant
+     1>client\qmenu.c(322): warning C4127: conditional expression is constant
+     1>client\qmenu.c(370): warning C4047: '=' : 'lightstyle_t *' differs in levels of indirection from 'int'
+     1>client\qmenu.c(767): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\qmenu.c(770): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         snd_dma.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>client\snd_dma.c(249): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\snd_dma.c(269): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\snd_dma.c(285): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\snd_dma.c(623): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\snd_dma.c(631): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\snd_dma.c(1212): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\snd_dma.c(1213): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>client\snd_dma.c(1216): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         snd_mem.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>client\snd_mem.c(345): warning C4127: conditional expression is constant
+     1>client\snd_mem.c(366): warning C4057: 'function' : 'const char *' differs in indirection to slightly different base types from 'byte *'
+     1>client\snd_mem.c(619): warning C4057: 'function' : 'char *' differs in indirection to slightly different base types from 'byte *'
+     1>client\snd_mem.c(634): warning C4057: 'function' : 'char *' differs in indirection to slightly different base types from 'byte [8192]'
+     1>client\snd_mem.c(717): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         snd_mix.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>client\snd_mix.c(254): warning C4310: cast truncates constant value
+     1>client\snd_mix.c(255): warning C4310: cast truncates constant value
+     1>client\snd_mix.c(269): warning C4310: cast truncates constant value
+     1>client\snd_mix.c(270): warning C4310: cast truncates constant value
+     1>client\snd_mix.c(311): warning C4127: conditional expression is constant
+         x86.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+         Compiling...
+         m_flash.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+         q_shared.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>game\q_shared.c(273): warning C4100: 'f' : unreferenced formal parameter
+     1>game\q_shared.c(425): warning C4100: 'p' : unreferenced formal parameter
+     1>game\q_shared.c(425): warning C4100: 'emaxs' : unreferenced formal parameter
+     1>game\q_shared.c(425): warning C4100: 'emins' : unreferenced formal parameter
+     1>game\q_shared.c(883): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>game\q_shared.c(904): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>game\q_shared.c(930): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>game\q_shared.c(1063): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>game\q_shared.c(1119): warning C4127: conditional expression is constant
+     1>game\q_shared.c(1237): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>game\q_shared.c(1241): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>game\q_shared.c(1271): warning C4127: conditional expression is constant
+     1>game\q_shared.c(1315): warning C4127: conditional expression is constant
+     1>game\q_shared.c(1341): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         cmd.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>qcommon\cmd.c(164): warning C4057: 'function' : 'char *' differs in indirection to slightly different base types from 'byte [65536]'
+     1>qcommon\cmd.c(321): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\cmd.c(323): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\cmd.c(342): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\cmd.c(343): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\cmd.c(466): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\cmd.c(473): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\cmd.c(475): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\cmd.c(477): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\cmd.c(496): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>qcommon\cmd.c(611): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>qcommon\cmd.c(612): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\cmd.c(613): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\cmd.c(615): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\cmd.c(662): warning C4127: conditional expression is constant
+     1>qcommon\cmd.c(685): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>qcommon\cmd.c(704): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\cmd.c(755): warning C4127: conditional expression is constant
+     1>qcommon\cmd.c(855): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         cmodel.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>qcommon\cmodel.c(196): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>qcommon\cmodel.c(197): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>qcommon\cmodel.c(559): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\cmodel.c(561): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\cmodel.c(562): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\cmodel.c(564): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\cmodel.c(642): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\cmodel.c(866): warning C4127: conditional expression is constant
+         common.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>qcommon\common.c(79): warning C4152: nonstandard extension, function/data pointer conversion in expression
+     1>qcommon\common.c(108): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(337) : see declaration of 'vsnprintf'
+     1>qcommon\common.c(118): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\common.c(137): warning C4996: '_strtime': This function or variable may be unsafe. Consider using _strtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.h(202) : see declaration of '_strtime'
+     1>qcommon\common.c(138): warning C4996: '_strdate': This function or variable may be unsafe. Consider using _strdate_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.h(198) : see declaration of '_strdate'
+     1>qcommon\common.c(149): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>qcommon\common.c(151): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>qcommon\common.c(178): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(337) : see declaration of 'vsnprintf'
+     1>qcommon\common.c(204): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(337) : see declaration of 'vsnprintf'
+     1>qcommon\common.c(1052): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\common.c(1232): warning C4100: 'challenge' : unreferenced formal parameter
+     1>qcommon\common.c(1232): warning C4100: 'sequence' : unreferenced formal parameter
+     1>qcommon\common.c(1232): warning C4100: 'length' : unreferenced formal parameter
+     1>qcommon\common.c(1232): warning C4100: 'base' : unreferenced formal parameter
+     1>qcommon\common.c(1542): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         crc.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+         cvar.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>qcommon\cvar.c(435): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         files.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>qcommon\files.c(125): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\files.c(158): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>qcommon\files.c(210): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\files.c(438): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>qcommon\files.c(464): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>qcommon\files.c(477): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>qcommon\files.c(690): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>qcommon\files.c(727): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\files.c(787): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\files.c(799): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\files.c(842): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\files.c(848): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>qcommon\files.c(1135): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\files.c(1144): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>qcommon\files.c(1147): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : see declaration of 'strdup'
+     1>qcommon\files.c(1171): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : see declaration of 'strdup'
+     1>qcommon\files.c(1173): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(254) : see declaration of 'strlwr'
+     1>qcommon\files.c(1182): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : see declaration of 'strdup'
+     1>qcommon\files.c(1184): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(254) : see declaration of 'strlwr'
+     1>qcommon\files.c(1210): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         md4.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+         net_chan.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>qcommon\net_chan.c(138): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(337) : see declaration of 'vsnprintf'
+     1>qcommon\net_chan.c(366): warning C4389: '==' : signed/unsigned mismatch
+         pmove.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+         sv_ccmds.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>server\sv_ccmds.c(200): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>server\sv_ccmds.c(203): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>server\sv_ccmds.c(210): warning C4127: conditional expression is constant
+     1>server\sv_ccmds.c(254): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_ccmds.c(261): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_ccmds.c(263): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_ccmds.c(286): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>server\sv_ccmds.c(314): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>server\sv_ccmds.c(346): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>server\sv_ccmds.c(358): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>server\sv_ccmds.c(362): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(186) : see declaration of 'strncat'
+     1>server\sv_ccmds.c(388): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_ccmds.c(389): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_ccmds.c(417): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>server\sv_ccmds.c(431): warning C4127: conditional expression is constant
+     1>server\sv_ccmds.c(445): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_ccmds.c(539): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>server\sv_ccmds.c(616): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>server\sv_ccmds.c(804): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_ccmds.c(813): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_ccmds.c(915): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>server\sv_ccmds.c(928): warning C4057: 'function' : 'byte *' differs in indirection to slightly different base types from 'char [32768]'
+         sv_ents.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+         sv_game.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>server\sv_game.c(70): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>server\sv_game.c(99): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>server\sv_game.c(127): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>server\sv_game.c(149): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>server\sv_game.c(202): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         sv_init.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>server\sv_init.c(49): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>server\sv_init.c(130): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>server\sv_init.c(195): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_init.c(198): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>server\sv_init.c(203): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_init.c(209): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_init.c(222): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_init.c(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_init.c(406): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_init.c(427): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_init.c(434): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         sv_main.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>server\sv_main.c(150): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_main.c(151): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_main.c(164): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_main.c(328): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>server\sv_main.c(429): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>server\sv_main.c(477): warning C4152: nonstandard extension, function/data pointer conversion in expression
+     1>server\sv_main.c(489): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_main.c(490): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>server\sv_main.c(942): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+         sv_send.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>server\sv_send.c(74): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>server\sv_send.c(97): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>server\sv_send.c(140): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+         sv_user.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>server\sv_user.c(557): warning C4127: conditional expression is constant
+     1>server\sv_user.c(581): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+         sv_world.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>server\sv_world.c(327): warning C4127: conditional expression is constant
+         cd_win.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>win32\cd_win.c(472): warning C4389: '!=' : signed/unsigned mismatch
+     1>win32\cd_win.c(470): warning C4100: 'uMsg' : unreferenced formal parameter
+     1>win32\cd_win.c(470): warning C4100: 'hWnd' : unreferenced formal parameter
+         Compiling...
+         conproc.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>win32\conproc.c(170): warning C4127: conditional expression is constant
+     1>win32\conproc.c(160): warning C4100: 'arg' : unreferenced formal parameter
+     1>win32\conproc.c(268): warning C4244: '=' : conversion from 'int' to 'SHORT', possible loss of data
+     1>win32\conproc.c(299): warning C4244: '=' : conversion from 'int' to 'char', possible loss of data
+     1>win32\conproc.c(305): warning C4244: '=' : conversion from 'int' to 'WORD', possible loss of data
+     1>win32\conproc.c(335): warning C4244: '=' : conversion from 'int' to 'char', possible loss of data
+     1>win32\conproc.c(376): warning C4244: '=' : conversion from 'int' to 'SHORT', possible loss of data
+     1>win32\conproc.c(383): warning C4244: '=' : conversion from 'int' to 'SHORT', possible loss of data
+     1>win32\conproc.c(390): warning C4244: '=' : conversion from 'int' to 'SHORT', possible loss of data
+     1>win32\conproc.c(404): warning C4244: '=' : conversion from 'int' to 'SHORT', possible loss of data
+     1>win32\conproc.c(413): warning C4244: '=' : conversion from 'int' to 'SHORT', possible loss of data
+     1>win32\conproc.c(420): warning C4244: '=' : conversion from 'int' to 'SHORT', possible loss of data
+         in_win.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+         net_wins.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>win32\net_wins.c(216): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>win32\net_wins.c(217): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>win32\net_wins.c(218): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>win32\net_wins.c(219): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>win32\net_wins.c(220): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>win32\net_wins.c(221): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>win32\net_wins.c(222): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>win32\net_wins.c(223): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>win32\net_wins.c(224): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>win32\net_wins.c(225): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>win32\net_wins.c(226): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>win32\net_wins.c(235): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>win32\net_wins.c(330): warning C4100: 'to' : unreferenced formal parameter
+     1>win32\net_wins.c(370): warning C4057: 'function' : 'char *' differs in indirection to slightly different base types from 'byte *'
+     1>win32\net_wins.c(419): warning C4047: 'initializing' : 'int' differs in levels of indirection from 'void *'
+     1>win32\net_wins.c(529): warning C4057: 'function' : 'u_long *' differs in indirection to slightly different base types from 'int *'
+     1>win32\net_wins.c(542): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(253) : see declaration of 'stricmp'
+     1>win32\net_wins.c(644): warning C4057: 'function' : 'u_long *' differs in indirection to slightly different base types from 'int *'
+     1>win32\net_wins.c(784): warning C4389: '==' : signed/unsigned mismatch
+     1>win32\net_wins.c(788): warning C4389: '==' : signed/unsigned mismatch
+         q_shwin.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+         snd_win.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>win32\snd_win.c(547): warning C4113: 'FARPROC' differs in parameter lists from 'HRESULT (__stdcall *)(LPCGUID *,LPDIRECTSOUND8 *,LPUNKNOWN *)'
+     1>win32\snd_win.c(547): warning C4057: '=' : 'HRESULT (__stdcall *)(LPCGUID *,LPDIRECTSOUND8 *,LPUNKNOWN *)' differs in indirection to slightly different base types from 'FARPROC'
+     1>win32\snd_win.c(1041): warning C4127: conditional expression is constant
+         sys_win.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>win32\sys_win.c(76): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>win32\sys_win.c(163): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>win32\sys_win.c(164): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>win32\sys_win.c(165): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>win32\sys_win.c(234): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+     1>win32\sys_win.c(277): warning C4057: 'function' : 'LPDWORD' differs in indirection to slightly different base types from 'int *'
+     1>win32\sys_win.c(283): warning C4057: 'function' : 'LPDWORD' differs in indirection to slightly different base types from 'int *'
+     1>win32\sys_win.c(298): warning C4057: 'function' : 'LPDWORD' differs in indirection to slightly different base types from 'int *'
+     1>win32\sys_win.c(312): warning C4057: 'function' : 'LPDWORD' differs in indirection to slightly different base types from 'int *'
+     1>win32\sys_win.c(321): warning C4057: 'function' : 'LPDWORD' differs in indirection to slightly different base types from 'int *'
+     1>win32\sys_win.c(359): warning C4057: 'function' : 'LPDWORD' differs in indirection to slightly different base types from 'int *'
+     1>win32\sys_win.c(362): warning C4057: 'function' : 'LPDWORD' differs in indirection to slightly different base types from 'int *'
+     1>win32\sys_win.c(365): warning C4057: 'function' : 'LPDWORD' differs in indirection to slightly different base types from 'int *'
+     1>win32\sys_win.c(415): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>win32\sys_win.c(524): warning C4127: conditional expression is constant
+     1>win32\sys_win.c(540): warning C4054: 'type cast' : from function pointer 'FARPROC' to data pointer 'void *'
+     1>win32\sys_win.c(540): warning C4152: nonstandard extension, function/data pointer conversion in expression
+     1>win32\sys_win.c(632): warning C4127: conditional expression is constant
+     1>win32\sys_win.c(657): warning C4996: '_controlfp': This function or variable may be unsafe. Consider using _controlfp_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\float.h(120) : see declaration of '_controlfp'
+     1>win32\sys_win.c(596): warning C4100: 'nCmdShow' : unreferenced formal parameter
+         vid_dll.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>win32\vid_dll.c(123): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>win32\vid_dll.c(148): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>win32\vid_dll.c(441): warning C4210: nonstandard extension used : function given file scope
+     1>win32\vid_dll.c(526): warning C4100: 'y' : unreferenced formal parameter
+     1>win32\vid_dll.c(526): warning C4100: 'x' : unreferenced formal parameter
+     1>win32\vid_dll.c(608): warning C4054: 'type cast' : from function pointer 'FARPROC' to data pointer 'void *'
+     1>win32\vid_dll.c(608): warning C4152: nonstandard extension, function/data pointer conversion in expression
+     1>win32\vid_dll.c(619): warning C4152: nonstandard extension, function/data pointer conversion in expression
+     1>win32\vid_dll.c(757): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putenv. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(941) : see declaration of 'putenv'
+         vid_menu.c
+     1>cl : Command line warning D9032: '-doc' : XML documentation comments are not supported by the C compiler
+     1>win32\vid_menu.c(85): warning C4100: 'unused' : unreferenced formal parameter
+     1>win32\vid_menu.c(136): warning C4100: 'unused' : unreferenced formal parameter
+     1>win32\vid_menu.c(216): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(253) : see declaration of 'stricmp'
+     1>win32\vid_menu.c(221): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(253) : see declaration of 'stricmp'
+     1>win32\vid_menu.c(230): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putenv. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(941) : see declaration of 'putenv'
+     1>win32\vid_menu.c(232): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putenv. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(941) : see declaration of 'putenv'
+     1>win32\vid_menu.c(141): warning C4100: 'unused' : unreferenced formal parameter
+     1>win32\vid_menu.c(454): warning C4028: formal parameter 1 different from declaration
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\release/quake2.exe" /INCREMENTAL:NO /NOLOGO winmm.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\release/quake2.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /LTCG /TLBID:1 /RELEASE /DYNAMICBASE:NO /NXCOMPAT:NO /IMPLIB:".\release\quake2.lib" /MACHINE:X86 /CLRTHREADATTRIBUTE:NONE /SAFESEH .\release\q2.res
+         .\release/cd_win.obj
+         .\release/cl_cin.obj
+         .\release/cl_ents.obj
+         .\release/cl_fx.obj
+         .\release/cl_input.obj
+         .\release/cl_inv.obj
+         .\release/cl_main.obj
+         .\release/cl_newfx.obj
+         .\release/cl_parse.obj
+         .\release/cl_pred.obj
+         .\release/cl_scrn.obj
+         .\release/cl_tent.obj
+         .\release/cl_view.obj
+         .\release/cmd.obj
+         .\release/cmodel.obj
+         .\release/common.obj
+         .\release/conproc.obj
+         .\release/console.obj
+         .\release/crc.obj
+         .\release/cvar.obj
+         .\release/files.obj
+         .\release/in_win.obj
+         .\release/keys.obj
+         .\release/m_flash.obj
+         .\release/md4.obj
+         .\release/menu.obj
+         .\release/net_chan.obj
+         .\release/net_wins.obj
+         .\release/pmove.obj
+         .\release/q_shared.obj
+         .\release/q_shwin.obj
+         .\release/qmenu.obj
+         .\release/snd_dma.obj
+         .\release/snd_mem.obj
+         .\release/snd_mix.obj
+         .\release/snd_win.obj
+         .\release/sv_ccmds.obj
+         .\release/sv_ents.obj
+         .\release/sv_game.obj
+         .\release/sv_init.obj
+         .\release/sv_main.obj
+         .\release/sv_send.obj
+         .\release/sv_user.obj
+         .\release/sv_world.obj
+         .\release/sys_win.obj
+         .\release/vid_dll.obj
+         .\release/vid_menu.obj
+         .\release/x86.obj
+         "C:\Users\Jay.VADER\Desktop\quake2 - Copy\quake2-3.22\release\gamex86.lib"
+         "C:\Users\Jay.VADER\Desktop\quake2 - Copy\quake2-3.22\release\ref_gl.lib"
+     1>cl_ents.obj : error LNK2001: unresolved external symbol _camdevice
+     1>cl_main.obj : error LNK2001: unresolved external symbol _Cam_Shutdown
+     1>cl_main.obj : error LNK2001: unresolved external symbol _Cam_InitSystem
+     1>cl_view.obj : error LNK2001: unresolved external symbol _Cam_UpdateEntity
+     1>cvar.obj : error LNK2001: unresolved external symbol _wildcardfit
+     1>menu.obj : error LNK2001: unresolved external symbol _M_Menu_Sound_f
+     1>snd_dma.obj : error LNK2001: unresolved external symbol _S_WinAmp_Frame
+     1>snd_mem.obj : error LNK2001: unresolved external symbol _freqs
+     1>snd_mem.obj : error LNK2001: unresolved external symbol _InitMP3
+     1>snd_mem.obj : error LNK2001: unresolved external symbol _ExitMP3
+     1>snd_mem.obj : error LNK2001: unresolved external symbol _decodeMP3
+     1>snd_win.obj : error LNK2001: unresolved external symbol _S_WinAmp_Shutdown
+     1>snd_win.obj : error LNK2001: unresolved external symbol _S_WinAmp_Init
+     1>vid_dll.obj : error LNK2001: unresolved external symbol _Cam_Reset_f
+     1>.\release/quake2.exe : fatal error LNK1120: 14 unresolved externals
+     1>Done Building Project "C:\Users\Jay.VADER\Desktop\quake2 - Copy\quake2-3.22\quake2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.71

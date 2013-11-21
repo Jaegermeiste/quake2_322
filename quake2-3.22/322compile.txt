@@ -1,0 +1,8 @@
+Compiling 3.22 requires several files and libraries:
+zLib : http://www.gzip.org/zlib/
+
+mpglib: http://www.quakesrc.org/?Page=tutorials&What=./tutorials/Quake2/misc/mp3tut.txt
+
+jpeglib: http://www.ijg.org (3.22 uses a static version of this lib, you may have to build one if you can't find it)
+
+glext.h: http://oss.sgi.com/projects/ogl-sample/sdk.html
